@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 
 import store from './src/redux/store';
 
-import Intern from './intern';
+import Intern from './src/intern';
 
 function App() {
   return (

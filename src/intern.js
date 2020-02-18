@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { View, Text, TextInput, Button } from 'react-native'
 import Component from './component';
-import addEmailAction from './src/redux/actions/AddEmail'
+import addEmailAction from './redux/actions/AddEmail'
 
 
 export default function Intern() {
