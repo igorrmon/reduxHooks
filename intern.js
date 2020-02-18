@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { View, Text, TextInput, Button } from 'react-native'
 import Component from './component';
-import addEmailAction from './redux/actions/AddEmail'
+import addEmailAction from './src/redux/actions/AddEmail'
 
 
-export default function CourseList() {
+export default function Intern() {
 
   const dispatch = useDispatch();
   const [emailState, setState] = useState('')

@@ -1,14 +1,14 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 
-import store from './redux/store';
+import store from './src/redux/store';
 
-import TelaInterna from './telaInterna';
+import Intern from './intern';
 
 function App() {
   return (
     <Provider store={store}>
-      <TelaInterna />
+      <Intern />
     </Provider>
   );
 }
